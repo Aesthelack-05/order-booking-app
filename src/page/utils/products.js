@@ -1,0 +1,150 @@
+// export const Cart = [ 
+
+import React from 'react'
+import Img1 from '../../assets/img1.jpg'
+import Img2 from '../../assets/img2.jpg'
+import Img3 from '../../assets/img3.jpg'
+import Img4 from '../../assets/img4.jpg'
+import Img5 from '../../assets/img5.jpg'
+import Img6 from '../../assets/img6.jpg'
+import Img7 from '../../assets/img7.jpg'
+import Img8 from '../../assets/img8.jpg'
+import Img9 from '../../assets/img9.jpg'
+import Img10 from '../../assets/img10.jpg'
+
+
+
+export const productData =[
+    {
+        id:1,
+        img: Img1,
+        title:"Overnight Diapers Size 6",
+        price:"$33.250",
+        discount:"$35.000",
+        description:"Packet",
+        text: "Flash Sale",
+
+    },
+    {
+        id:2,
+        img: Img2,
+        title:"Beef Meat",
+        price:"$35.000",
+        description:"Kilogram",
+        text: "Flash Sale",
+    },
+    {
+        id:3,
+        img: Img3,
+        title:"Ladies Finger",
+        price:"$19.000",
+        description:"Kilogram",
+        text: "Flash Sale",
+    },
+    {
+        id:4,
+        img: Img4,
+        title:"Vanilla Air Freshener Spray",
+        price:"$180.000",
+        discount:"$200.000",
+        description:"Piece",
+    },
+    {
+        id:5,
+        img: Img5,
+        title:"Cauliflower",
+        price:"$45.000",
+        description:"Piece",
+        text: "Flash Sale",
+
+    },
+    {
+        id:6,
+        img: Img6,
+        title:"Onion Red",
+        price:"$23.280",
+        discount:"$24.000",
+        description:"Kilogram",
+        text: "Flash Sale",
+    },
+    {
+        id:7,
+        img: Img7,
+        title:"Coriander Leaves",
+        price:"$42.750",
+        discount:"$45.000",
+        description:"Gram",
+        text: "Flash Sale",
+    },
+    {
+        id:8,
+        img: Img8,
+        title:"Local Onion",
+        price:"$23.750",
+        discount:"$25.000",
+        description:"Kilogram",
+    },
+    {
+        id:9,
+        img: Img9,
+        title:"Red Tomato",
+        price:"$33.250",
+        discount:"$35.000",
+        description:"Kilogram",
+        text: "Flash Sale",
+    },
+    {
+        id:10,
+        img: Img10,
+        title:"Beef T-bone Steak",
+        price:"$42.750",
+        discount:"$42.750",
+        description:"Packet",
+        text: "Flash Sale",
+    },
+];
+
+// const ProductsData = () => {
+//     return ( 
+//     <div className="mt-14 mb-12 flex ">
+// <div className='container'> 
+//       {/* Header section. */}
+//       <div className='text-justify  mb-10 max-w-[10000px] '>
+// <h1 className='text-3xl font-bold'>Most Popular</h1>
+// </div>
+//  {/* Body section. */}
+//  <div>
+//     <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-col-5 place-items-center gap-5 flex-wrap '>
+//   {/* card section. */}
+//   {
+//     ProductsData.map((data) => (
+//         <div key={data.id} className='space-y-3'>
+//             <img src={data.img} alt=""  className=''/>
+// <div className=''>
+//     <h3 className='font-semibold'>
+//         {data.title}
+//     </h3>
+//     <p className='text-sm'>{data.description}</p>
+//     <div>
+//     <p className='text-lg text-green-500' >{data.price }</p>
+//     <p className='text-sm line-through'>{data.discount}</p>
+//              </div>       
+//      </div>
+
+
+//         </div> 
+//     )
+    
+    
+//     )
+//   }
+
+//     </div>
+//  </div>
+// </div>
+
+//     </div>
+//     )
+// }
+
+// export default Products
